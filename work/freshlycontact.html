@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Link Favicon -->
+    <link rel="icon" href="./multimedias/images/favicon.png" type="image/x-icon">
+    <!-- Link Font Awesome 6 Free -->
+    <script src="https://kit.fontawesome.com/e3b8761ba7.js" crossorigin="anonymous"></script>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/freshly_style.css">
+
+    <title>Freshly Restaurant | Contact</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <a href="./freshlyhome.html">
+                <img src="./multimedias/images/logo.png" alt="Logo du Restaurant Freshly" class="logo">
+                <span class="logo_text">Freshly restaurant</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="./freshlyhome.html">Home</a></li>
+                    <li><a href="./freshlyabout.html">About</a></li>
+                    <li><a href="./freshlymenus.html">Menus</a></li>
+                    <li><a href="./freshlycontact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <a href="#header" class="scroll_up_btn">↑<span class="scroll_up_text">Retour en haut de la page</span></a>
+
+        <main class="main main_contact">
+            <section class="contact_us_section">
+                <h1>Contact us</h1>
+                <p>
+                    If you want to make a reservation, please complete this form.
+                </p>
+                <p>
+                    Fields with <i class="fas fa-star"></i> are required.
+                </p>
+
+                <form action=".php" method="post" class="contact_form">
+                    <div class="reservation_details">
+                        <!-- Reservation -->
+                        <fieldset class="reservation_div all_div_reserv">
+                            <legend class="form_soustitle">Reservation</legend>
+                            <div>
+                                <label for="date" class="label_with_star">Date</label>
+                                <input type="date" name="date[]" id="date" required>
+                            </div>
+                            <div>
+                                <label for="time" class="label_with_star">Time</label>
+                                <input type="time" name="name[]" id="time" required>
+                            </div>
+                            <div>
+                                <label for="number" class="label_with_star">Number of guests</label>
+                                <input type="number" name="[]" id="number" required>
+                            </div>
+                        </fieldset>
+
+                        <!-- Details -->
+                        <fieldset class="details_div all_div_reserv">
+                            <legend class="form_soustitle">Details</legend>
+                            <div>
+                                <label for="name" class="label_with_star">Name</label>
+                                <input type="text" name="name[]" id="name" required>
+                            </div>
+                            <div>
+                                <label for="mail">Email</label>
+                                <input type="email" name="mail[]" id="mail">
+                            </div>
+                            <div>
+                                <label for="tel" class="label_with_star">Telephone</label>
+                                <input type="tel" name="tel[]" id="tel" required>
+                            </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="textarea_div">
+                        <span class="form_soustitle">Further request</span>
+                        <textarea name="request" id="textarea" cols="30" rows="10"></textarea>
+                    </div>
+
+                    <div class="toolbar">
+                        <input type="submit" value="Reserve">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+            </section>
+            <section class="location_section">
+                <h2>Our location</h2>
+                <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    src="https://www.openstreetmap.org/export/embed.html?bbox=2.432034015655518%2C6.350980810818672%2C2.43548333644867%2C6.3527828533728785&amp;layer=mapnik"
+                    style="border: 1px solid black"></iframe><br>
+                <small><a href="https://www.openstreetmap.org/#map=19/6.35188/2.43376">Afficher une carte plus
+                        grande</a></small>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="others_info">
+            <div class="wrapper">
+                <div class="opening_hrs">
+                    <h4>Opening hours</h4>
+                    <p>
+                        Monday: Closed <br>
+                        Tue-Wed : 9am - 10pm <br>
+                        Thu-Fri : 9am - 10pm <br>
+                        Sat-Sun : 5pm - 10pm
+                    </p>
+                </div>
+                <div class="contacts">
+                    <h4>Contact</h4>
+                    <address>
+                        <p>
+                            13 Christopher Street <br>
+                            New York, <br>
+                            NY 10014-3543 <br>
+                            <a href="tel:+0120008009999">+01 2000 800 9999</a>
+                        </p>
+                    </address>
+                </div>
+                <div class="social_networks">
+                    <h4>Social networks</h4>
+                    <a href="#"><i class='fab fa-facebook-f'></i></a>
+                    <a href="#"><i class='fab fa-instagram'></i></a>
+                    <a href="#"><i class='fab fa-pinterest-p'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="license">
+            <div class="wrapper">
+                <a href="3wa.fr">
+                    <img src="./multimedias/images/logo-3wa.png" alt="Le logo de la 3W Academy">
+                </a>
+                <p>
+                    Cet exercice de <a href="#">3W Academy</a> est mis à disposition <a href="#">
+                        pour l'usage personnel des étudiants. Pas de
+                        Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International.
+                    </a>
+                    Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a
+                        href="mailto:contact@3wa.fr">contact@3wa.fr</a>. Les
+                    maquettes ont été réalisées par<a href="#"> Catherine Denos</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <!-- Integration du jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <!-- Integration du Mixitup Plugin -->
+    <script src="./mixitup-3/dist/mixitup.min.js"></script>
+    <!-- Link Favicon -->
+    <link rel="icon" href="./multimedias/images/favicon.png" type="image/x-icon">
+    <!-- Link Font Awesome 6 Free -->
+    <script src="https://kit.fontawesome.com/e3b8761ba7.js" crossorigin="anonymous"></script>
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="./css/freshly_style.css">
+
+    <title>Freshly Restaurant | Menus</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header" id="header">
+            <a href="./freshlyhome.html">
+                <img src="./multimedias/images/logo.png" alt="Logo du Restaurant Freshly" class="logo">
+                <span class="logo_text">Freshly restaurant</span>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="./freshlyhome.html">Home</a></li>
+                    <li><a href="./freshlyabout.html">About</a></li>
+                    <li><a href="./freshlymenus.html">Menus</a></li>
+                    <li><a href="./freshlycontact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <a href="#header" class="scroll_up_btn">↑<span class="scroll_up_text">Retour en haut de la page</span></a>
+        <main class="main main_menus">
+            <section class="details_section">
+                <h1>Details of our menus</h1>
+                <p>
+                    Choose your main course according to your menu!
+                </p>
+
+                <div class="div_button">
+                    <button class="all_btn" data-filter="all">All</button>
+                    <button class="meat_btn" data-filter=".meat">Meat</button>
+                    <button class="vegan_btn" data-filter=".vegan">Vegan</button>
+                    <button class="fish_btn" data-filter=".fish">Fish</button>
+                </div>
+
+                <div class="img_parent">
+                    <div class="mix fish menu_img_ausurvol">
+                        <img src="./multimedias/menus/fish-01.jpg" alt="Plat de fish #1">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Grilled mussels
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mix vegan menu_img_ausurvol">
+                        <img src="./multimedias/menus/vegan-03.jpg" alt="Plat de Vegan #3">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Mixed vegetables
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mix meat menu_img_ausurvol">
+                        <img src="./multimedias/menus/meat-03.jpg" alt="Plat de meat #3">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Freshly kebabs
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mix fish menu_img_ausurvol">
+                        <img src="./multimedias/menus/fish-02.jpg" alt="Plat de fish #2">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Cajun shrimp
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mix meat menu_img_ausurvol">
+                        <img src="./multimedias/menus/meat-01.jpg" alt="Plat de meat #1">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Freshly burger
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mix vegan menu_img_ausurvol">
+                        <img src="./multimedias/menus/vegan-02.jpg" alt="Plat de Vegan #2">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Grilled eggplants
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mix meat menu_img_ausurvol">
+                        <img src="./multimedias/menus/meat-02.jpg" alt="Plat de meat #2">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Beef stew with pasta
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mix fish menu_img_ausurvol">
+                        <img src="./multimedias/menus/fish-03.jpg" alt="Plat de fish #3">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Grilled salmon
+                            </p>
+                        </div>
+                    </div>
+                    <div class="mix vegan last_img menu_img_ausurvol">
+                        <img src="./multimedias/menus/vegan-01.jpg" alt="Plat de Vegan #1" class="">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Vegetable Jambalaya
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="deserts_section">
+                <h2>Deserts</h2>
+                <p>
+                    Here are the deserts you can choose to finish your meal [included in your menu].
+                </p>
+                <div class="div_img">
+                    <div class="menu_img_ausurvol">
+                        <img src="./multimedias/menus/desert-01.jpg" alt="Tiramisu">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Tiramisu                               
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menu_img_ausurvol">
+                        <img src="./multimedias/menus/desert-02.jpg" alt="Freshly Pancakes">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Freshly Pancakes
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menu_img_ausurvol">
+                        <img src="./multimedias/menus/desert-03.jpg" alt="Redberries cup">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Redberries cup
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cocktails_section">
+                <h2>Coktails</h2>
+                <p>
+                    Soft drinks are included, but if you can order one of our excellent cocktails [not included in the menu].
+                </p>
+                <div class="div_img">
+                    <div class="menu_img_ausurvol">
+                        <img src="./multimedias/menus/drink-01.jpg" alt="Winter Whiskey">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Winter Whiskey
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menu_img_ausurvol">
+                        <img src="./multimedias/menus/drink-02.jpg" alt="Paloma cocktail">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Paloma cocktail
+                            </p>
+                        </div>
+                    </div>
+                    <div class="menu_img_ausurvol">
+                        <img src="./multimedias/menus/drink-03.jpg" alt="Bellini cocktail">
+                        <div class="menu_texte_afficher">
+                            <p>
+                                <img src="./multimedias/images/fork-knife.svg" alt="SVG d'un couteau et d'une fourchette">
+                                Bellini cocktail
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <footer class="footer">
+        <div class="others_info">
+            <div class="wrapper">
+                <div class="opening_hrs">
+                    <h4>Opening hours</h4>
+                    <p>
+                        Monday: Closed <br>
+                        Tue-Wed : 9am - 10pm <br>
+                        Thu-Fri : 9am - 10pm <br>
+                        Sat-Sun : 5pm - 10pm
+                    </p>
+                </div>
+                <div class="contacts">
+                    <h4>Contact</h4>
+                    <address>
+                        <p>
+                            13 Christopher Street <br>
+                            New York, <br>
+                            NY 10014-3543 <br>
+                            <a href="tel:+0120008009999">+01 2000 800 9999</a>
+                        </p>
+                    </address>
+                </div>
+                <div class="social_networks">
+                    <h4>Social networks</h4>
+                    <a href="#"><i class='fab fa-facebook-f'></i></a>
+                    <a href="#"><i class='fab fa-instagram'></i></a>
+                    <a href="#"><i class='fab fa-pinterest-p'></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="license">
+            <div class="wrapper">
+                <a href="3wa.fr">
+                    <img src="./multimedias/images/logo-3wa.png" alt="Le logo de la 3W Academy">
+                </a>
+                <p>
+                    Cet exercice de <a href="#">3W Academy</a> est mis à disposition <a href="#">
+                        pour l'usage personnel des étudiants. Pas de
+                        Rediffusion - Attribution - Pas d'Utilisation Commerciale - Pas de Modification - International.
+                    </a>
+                    Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de <a
+                        href="mailto:contact@3wa.fr">contact@3wa.fr</a>. Les
+                    maquettes ont été réalisées par<a href="#"> Catherine Denos</a>.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script personnalisé -->
+    <script>
+        let mixer = mixitup(".img_parent");
+    </script>
+</body>
+</html>

@@ -1,0 +1,145 @@
+/* =============================== @font_face =============================== */
+
+/* *************************
+ Fonts 
+ Athiti : par défaut
+ Merienda : pour les titres
+/* *********************** */
+
+/* ********* Athiti *********  */
+
+/* Extra-Light - 200 */
+@font-face {
+    font-family: Athiti;
+    src: url("../polices/Athiti/athiti-extralight.woff2") format("woff2"),
+         url("../polices/Athiti/athiti-extralight.woff") format("woff"),
+         url("../polices/Athiti/athiti-extralight.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 200;
+}
+
+/* Light - 300 */
+@font-face {
+    font-family: Athiti;
+    src: url("../polices/Athiti/athiti-light.woff2") format("woff2"),
+         url("../polices/Athiti/athiti-light.woff") format("woff"),
+         url("../polices/Athiti/athiti-light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* Regular - 400 */
+@font-face {
+    font-family: Athiti;
+    src: url("../polices/Athiti/athiti-regular.woff2") format("woff2"),
+         url("../polices/Athiti/athiti-regular.woff") format("woff"),
+         url("../polices/Athiti/athiti-regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+/* Medium - 500 */
+@font-face {
+    font-family: Athiti;
+    src: url("../polices/Athiti/athiti-medium.woff2") format("woff2"),
+         url("../polices/Athiti/athiti-medium.woff") format("woff"),
+         url("../polices/Athiti/athiti-medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* SemiBold - 600 */
+@font-face {
+    font-family: Athiti;
+    src: url("../polices/Athiti/athiti-semibold.woff2") format("woff2"),
+         url("../polices/Athiti/athiti-semibold.woff") format("woff"),
+         url("../polices/Athiti/athiti-semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Bold - 700 */
+@font-face {
+    font-family: Athiti;
+    src: url("../polices/Athiti/athiti-bold.woff2") format("woff2"),
+         url("../polices/Athiti/athiti-bold.woff") format("woff"),
+         url("../polices/Athiti/athiti-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+
+/* *********** Merienda ************* */
+
+/* Light - 300 */
+@font-face {
+    font-family: Merienda;
+    src: url("../polices/Merienda/merienda-light.woff2") format("woff2"),
+         url("../polices/Merienda/merienda-light.woff") format("woff"),
+         url("../polices/Merienda/merienda-light.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 300;
+}
+
+/* Regular - 400 */
+@font-face {
+    font-family: Merienda;
+    src: url("../polices/Merienda/merienda-regular.woff2") format("woff2"),
+         url("../polices/Merienda/merienda-regular.woff") format("woff"),
+         url("../polices/Merienda/merienda-regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+        
+/* Medium - 500 */
+@font-face {
+    font-family: Merienda;
+    src: url("../polices/Merienda/merienda-medium.woff2") format("woff2"),
+         url("../polices/Merienda/merienda-medium.woff") format("woff"),
+         url("../polices/Merienda/merienda-medium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* Semibold - 600 */
+@font-face {
+    font-family: Merienda;
+    src: url("../polices/Merienda/merienda-semibold.woff2") format("woff2"),
+         url("../polices/Merienda/merienda-semibold.woff") format("woff"),
+         url("../polices/Merienda/merienda-semibold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Bold - 700 */
+@font-face {
+    font-family: Merienda;
+    src: url("../polices/Merienda/merienda-bold.woff2") format("woff2"),
+         url("../polices/Merienda/merienda-bold.woff") format("woff"),
+         url("../polices/Merienda/merienda-bold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 700;
+}
+
+/* Extrabold - 800 */
+@font-face {
+    font-family: Merienda;
+    src: url("../polices/Merienda/merienda-extrabold.woff2") format("woff2"),
+         url("../polices/Merienda/merienda-extrabold.woff") format("woff"),
+         url("../polices/Merienda/merienda-extrabold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* Black - 900*/
+@font-face {
+    font-family: Merienda;
+    src: url("../polices/Merienda/merienda-black.woff2") format("woff2"),
+         url("../polices/Merienda/merienda-black.woff") format("woff"),
+         url("../polices/Merienda/merienda-black.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 900;
+}
+
+
