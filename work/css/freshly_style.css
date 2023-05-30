@@ -2,6 +2,9 @@
 @import url("font_face.css");
 
 /* ====================================== HOME ======================================= */
+
+html { scroll-behavior: smooth;}
+
 /* *****************************
 VARIABLES CSS
 ***************************** */
@@ -74,7 +77,7 @@ h4 {
 }
 
 h1 {
-    font-size: var(--fz-h1);
+    font-size: 1rem;
 }
 
 h2 {
@@ -119,6 +122,15 @@ CLASSES UTILITAIRES
     margin-inline: auto;
 }
 
+.nav-links_active {
+    color: #fff;
+    background-color: var(--clr-first);
+}
+
+
+/*--------------------------------------------------
+ Specially for all my articles and sections 
+ --------------------------------------------------*/
 article,
 section {
     animation: some_animation 5s ease;
@@ -138,6 +150,12 @@ section {
 /* *******************************************
                   HEADER
 ******************************************* */
+
+.header {
+    padding: 40px 0;
+    text-align: center;
+    background-image: linear-gradient(to top,  #ebe3db, #ffffff);
+}
 .header img {
     width: 150px;
 }
@@ -169,11 +187,6 @@ section {
     color: var(--clr-first);
 }
 
-.header {
-    padding: 40px 0;
-    text-align: center;
-}
-
 nav ul {
     background-color: var(--clr-second);
 }
@@ -192,7 +205,7 @@ nav ul a {
 nav ul a:hover,
 nav ul a:focus {
     color: #fff;
-    background-color: var(--clr-first);
+    background-color: var(--clr-third);
 }
 
 /* Bouton de retour en haut de page */
@@ -216,7 +229,6 @@ nav ul a:focus {
 }
 
 @keyframes bounce {
-
     0%,
     20%,
     50%,
@@ -312,6 +324,7 @@ section {
 /* =================== .specialmenu_article =============== */
 .specialmenu_article {
     margin-inline: 20px;
+    clear: both;
 }
 
 /* .img_au_survol */
@@ -509,6 +522,9 @@ div.others_info div a:hover {
         flex-direction: column;
     }
 
+    h1 {
+        font-size: var(--fz-h1);
+    }
     nav ul {
         display: flex;
         justify-content: center;
@@ -564,10 +580,6 @@ div.others_info div a:hover {
         gap: 2rem;
         justify-content: space-around;
         background-color: #fff;
-    }
-
-    nav ul a {
-        background-color: var(--clr-second);
     }
 
     nav {
